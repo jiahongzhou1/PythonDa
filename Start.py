@@ -11,7 +11,7 @@ img = Image5Ci.Image5Ci("Topolino.jpg")
 # img.HorizontalFlip(showResult = True , saveResult = True)
 
 # Differenza tra immagini
-img.Difference("Topolino2.jpg", 20 ,showResult=True , saveResult=True)
+img.Difference("Topolino2.jpg", 35 ,showResult=True , saveResult=True)
 
 # mostra i bordi dell'immagine
 # img.Edges(tolerance= 35 , showResult=True)
