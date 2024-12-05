@@ -135,7 +135,7 @@ class Image5Ci:
 
         # Controllo se salvare l'immagine
         if saveResult:
-            img.save("Difference.jpg" , "JPEG" , quality = 100 , optimize = 100 , progressive = True)
+            img.save("Difference35.jpg" , "JPEG" , quality = 100 , optimize = 100 , progressive = True)
 
     # Estrazione dei bordi di un'immagine
     def Edges(self , tolerance = 50 ,showResult = False , saveResult = False):
